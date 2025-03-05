@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AaFBr9i3BH0=",
+  "success": true,
+  "projectFilePath": "/Users/rickhuang668/Projects/FullStack-Store/API/API.csproj",
+  "expectedPackageFiles": [
+    "/Users/rickhuang668/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "/Users/rickhuang668/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
