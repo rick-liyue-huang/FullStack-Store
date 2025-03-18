@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddDbContext<StoreContext>(options =>
 {
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+  options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 var app = builder.Build();
@@ -27,5 +27,7 @@ var app = builder.Build();
 // app.UseAuthorization(); // enable authorization
 
 app.MapControllers();
+
+DbInitializer.InitDb(app);
 
 app.Run();
